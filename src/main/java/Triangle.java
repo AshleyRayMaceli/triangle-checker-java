@@ -22,11 +22,11 @@ public class Triangle {
     return mSide3;
   }
 
-  public boolean isEqualateral() {
+  public boolean isEquilateral() {
     return ((mSide1 == mSide2) && (mSide3 == mSide2));
   }
 
-  public boolean isIsosolese() {
+  public boolean isIsosceles() {
     return ((mSide1 == mSide2) || (mSide1 == mSide3) || (mSide2 == mSide3));
   }
 

@@ -4,15 +4,15 @@ import static org.junit.Assert.*;
 public class TriangleTest {
 
   @Test
-  public void isEqualateral_whenAllSidesEqual_true() {
+  public void isEqualiteral_whenAllSidesEqual_true() {
     Triangle testTriangle = new Triangle(2, 2, 2);
-    assertEquals(true, testTriangle.isEqualateral());
+    assertEquals(true, testTriangle.isEquilateral());
   }
 
   @Test
-  public void isIsosolese_whenTwoSidesEqual_true() {
+  public void isIsosceles_whenTwoSidesEqual_true() {
     Triangle testTriangle = new Triangle(2, 2, 3);
-    assertEquals(true, testTriangle.isIsosolese());
+    assertEquals(true, testTriangle.isIsosceles());
   }
 
   @Test
